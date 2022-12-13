@@ -244,6 +244,77 @@ hr{
     grid-template-columns: 50% 50%;
 }
 
+.grid_form_mapa{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 
+.form{
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 640px;
+    height: 440px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    position: relative;
+
+
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    transition: all .3s;
+    border-bottom: 2px solid gray;
+    
+
+}
+
+input:focus{
+    border-bottom: 2px solid lightblue;
+}
+
+p:before{
+    content: attr(type);
+    display: block;
+    margin: 28px 0 0;
+    font-size: 20px;
+    color: #0068FF;
+
+
+}
+
+.button_form{
+    float: right;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    border: 2px solid gray;
+    background: 0;
+    color: #112849;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.button_form:hover{
+    background-color: #1FFF8E;
+}
+
+.datos{
+    margin-left: 50px;
+    color: #112849;
+}
+
+.ubicacion{
+    color: #112849;
+}
 
 
